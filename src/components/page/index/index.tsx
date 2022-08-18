@@ -1,5 +1,14 @@
 import { VFC } from "react";
+import { Center, Text } from "@mantine/core";
 
 export const Index: VFC = () => {
-  return <div className="text-5xl">Index</div>;
+  return (
+    <>
+      <Center>
+        <Text size="xl" weight="bold">
+          CSS-collection
+        </Text>
+      </Center>
+    </>
+  );
 };

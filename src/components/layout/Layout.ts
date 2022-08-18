@@ -1,2 +1,2 @@
-export { AboutLayout } from "./AboutLayout";
+export { NotDoLayout } from "./notDo";
 export { HomeLayout } from "./HomeLayout";

@@ -13,6 +13,9 @@
     "printWidth": 120
   },
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@mantine/core": "^5.1.6",
+    "@mantine/hooks": "^5.1.6",
     "next": "12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -9,7 +9,7 @@ export const HomeLayout: VFC = (page) => {
       <header>
         <Header />
       </header>
-      <main className="flex-1 bg-red-300">{page}</main>
+      <main className="flex-1 bg-gray-100">{page}</main>
       <footer>
         <Footer />
       </footer>

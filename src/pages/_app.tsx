@@ -1,5 +1,6 @@
 import "tailwindcss/tailwind.css";
 import "@/styles/global.css";
+import { MantineProvider } from "@mantine/core";
 
 import { NextPage } from "next";
 import type { AppProps } from "next/app";
@@ -18,12 +19,12 @@ const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
   const getLayout = Component.getLayout ?? ((page) => page);
 
   return (
-    <>
+    <MantineProvider withGlobalStyles withNormalizeCSS>
       <Head>
-        <title>next-tailwind</title>
+        <title>css-collection</title>
       </Head>
       {getLayout(<Component {...pageProps} />)}
-    </>
+    </MantineProvider>
   );
 };
 
