@@ -1,5 +1,5 @@
+import { LinkApp } from "@/components/LinkApp";
 import { Text, List } from "@mantine/core";
-import Link from "next/link";
 import { VFC } from "react";
 
 export const NotDo: VFC = () => {
@@ -35,11 +35,7 @@ export const NotDo: VFC = () => {
           </List>
         </List.Item>
       </List>
-      <Link href="https://qiita.com/lhankor_mhy/items/bdcede71b1aad3b7ee94">
-        <a className="text-blue-800 hover:text-blue-700" target="_blank" rel="noopener noreferrer">
-          初心者向けCSSべからず集
-        </a>
-      </Link>
+      <LinkApp href="https://qiita.com/lhankor_mhy/items/bdcede71b1aad3b7ee94" title="初心者向けCSSべからず集" />
     </>
   );
 };

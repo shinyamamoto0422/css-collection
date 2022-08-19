@@ -5,6 +5,7 @@ const items = [
   { href: "/", label: "Home" },
   { href: "/notDo", label: "〇〇集" },
   { href: "/rayout", label: "レイアウト" },
+  { href: "basic", label: "基礎技術" },
 ];
 
 export const Header: VFC = () => {
